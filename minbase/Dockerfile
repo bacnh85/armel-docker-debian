@@ -1,2 +1,3 @@
-FROM $USER/minbase
-
+FROM scratch
+ADD rootfs.tar.xz /
+CMD ["/bin/bash"]

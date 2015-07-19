@@ -1,5 +1,5 @@
 #sudo mkimage.sh -t ngohaibac/debian-minbase debootstrap --variant=minbase jessie http://httpredir.debian.org/debian
 
-sudo mkimage.sh -d . -t ngohaibac/debian-minbase debootstrap --variant=minbase --components=main --include=inetutils-ping,iproute2 --force-check-gpg  jessie http://httpredir.debian.org/debian
+sudo mkimage.sh -d . -t ngohaibac/debian-minbase debootstrap --variant=minbase --components=main --include=inetutils-ping,iproute2 --force-check-gpg  jessie http://httpredir.debian.org/debian > build.log 2>&1
 
 https://github.com/docker/docker/blob/master/contrib/mkimage.sh
