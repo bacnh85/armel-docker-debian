@@ -1,0 +1,9 @@
++ mkdir -p ./rootfs
++ debootstrap --variant=minbase --components=main --include=inetutils-ping,iproute2 --force-check-gpg jessie ./rootfs http://httpredir.debian.org/debian
+I: Retrieving Release 
+I: Retrieving Release.gpg 
+I: Checking Release signature
+I: Valid Release signature (key id 75DDC3C4A499F1A18CB5F3C8CBF8D6FD518E17E1)
+I: Retrieving Packages 
+I: Validating Packages 
+I: Resolving dependencies of required packages...
