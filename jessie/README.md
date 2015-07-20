@@ -22,3 +22,8 @@ or obtain from the docker official git:
 wget https://github.com/docker/docker/blob/master/contrib/mkimage.sh
 
 ```
+
+or 
+```
+ln -ns ../docker/contrib/mkimage.sh mkimage.sh
+```
